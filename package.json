@@ -25,7 +25,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start:production": "npm run build && serve -l 3008 -s build",
+    "start:live": "npm run build && serve -l 3008 -s build",
+    "start:production": "serve -l 3008 -s build",
     "start:prod": "cross-env NODE_ENV=production node server",
     "start": "react-scripts start",
     "build": "react-scripts build",
