@@ -2,4 +2,4 @@
 set -ex
 
 
-pm2-runtime start npm --name "lgs-frontend" -- start:production
+pm2-runtime start npm --name "lgs-frontend" -- start
