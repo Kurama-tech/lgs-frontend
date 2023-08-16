@@ -26,7 +26,7 @@ function App() {
   useEffect(() => {
     fetchVisitCount(); // Fetch the visit count on initial load
     // Increment the visit count on every page load by making a request to the homepage
-    fetch("http://localhost:3005/", { method: "GET" })
+    fetch("https://api.labyrinthglobalsolutions.com/", { method: "GET" })
       .then((response) => response.json())
       .then((data) => {
         if (data.success) {
@@ -40,7 +40,7 @@ function App() {
 
   const fetchVisitCount = async () => {
     try {
-      const response = await fetch("http://localhost:3005/api/visit-count");
+      const response = await fetch("https://api.labyrinthglobalsolutions.com/api/visit-count");
       const data = await response.json();
       setVisitCount(data.visitCount);
     } catch (error) {

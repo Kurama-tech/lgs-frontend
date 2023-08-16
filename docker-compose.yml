@@ -3,8 +3,8 @@ services:
   lgsfrontend:
     image: quay.io/kurama/lgs-frontend:latest
     restart: always
-    # labels:
-    #   - traefik.frontend.rule=Host:
+    labels:
+      - traefik.frontend.rule=Host:new.labyrinthglobalsolutions.com
     networks:
      - web
     ports:

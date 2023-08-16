@@ -2,6 +2,6 @@
 set -ex
 
 #nginx
-git pull origin main
+git pull origin containerize
 
 docker compose down && docker compose pull &&  docker compose up -d 

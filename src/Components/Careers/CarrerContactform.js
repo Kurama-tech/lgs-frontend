@@ -377,7 +377,7 @@ const ContactForm = () => {
       formDataToSend.append("resume", formData.resume);
 
       // Send the form data to the server using axios
-      const response = await axios.post('http://localhost:3005/career-form', formDataToSend, {
+      const response = await axios.post('https://api.labyrinthglobalsolutions.com/career-form', formDataToSend, {
         headers: {
           'Content-Type':'multipart/form-data',
         },
