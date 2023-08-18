@@ -25,7 +25,7 @@ const ContactPopup = () => {
     const message = comment;
     event.preventDefault();
     try {
-      const response = await fetch("http://localhost:3005/register", {
+      const response = await fetch("https://api.labyrinthglobalsolutions.com/register", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

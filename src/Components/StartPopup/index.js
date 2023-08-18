@@ -31,7 +31,7 @@ const FirstTimePopup = () => {
     event.preventDefault();
     const phone = phoneNumber;
     try {
-      const response = await fetch("http://localhost:3005/register", {
+      const response = await fetch("https://api.labyrinthglobalsolutions.com/register", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

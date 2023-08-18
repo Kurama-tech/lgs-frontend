@@ -58,7 +58,7 @@ const CareerForm = () => {
 
       // Send the form data to the server using axios
       const response = await axios.post(
-        "http://localhost:3005/career-form",
+        "https://api.labyrinthglobalsolutions.com/career-form",
         formDataToSend,
         {
           headers: {

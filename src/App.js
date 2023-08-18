@@ -25,7 +25,6 @@ import PpcTable from "./Components/Ppctable";
 import Smm from "./Components/SMM";
 import PricingPage from "./Components/seo/seo";
 function App() {
-  // Set to true to show the pop-up on initial load
 
   return (
     <>

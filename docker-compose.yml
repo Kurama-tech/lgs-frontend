@@ -1,0 +1,14 @@
+version: "3.9"
+services:
+  lgsfrontend:
+    image: quay.io/kurama/lgs-frontend:latest
+    restart: always
+    labels:
+      - traefik.frontend.rule=Host:new.labyrinthglobalsolutions.com
+    networks:
+     - web
+    ports:
+      - "3008:3008"
+networks:
+ web:
+   external: true
