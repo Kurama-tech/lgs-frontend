@@ -56,7 +56,7 @@
 }
 
 .footerHeader {
-  font-size: 25px;
+  font-size: 30px;
 }
 
 .footerHorizontalLine {
@@ -139,4 +139,10 @@
 
 .footer-link {
   text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  .footerHeader {
+    font-size: 20px;
+  }
 }

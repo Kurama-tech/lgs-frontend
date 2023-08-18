@@ -15,6 +15,7 @@ import "./index.css";
 import IndustriesPage from "../IndustriesPage";
 import TechnologiesPage from "../Technologies";
 import Card from "../Card";
+import lgshome from '../images/lgsaboutushome.png'
 
 import Footer from "../Footer";
 
@@ -29,7 +30,7 @@ const Details = [
     id: 2,
     question: "Cost-Effectiveness",
     answer:
-      "While in-house development teams can be costly to maintain, partnering with LGS allows you to access a skilled workforce without the overhead expenses. You pay for the services you need, making it a cost-effective solution.",
+      "While internal development teams can be costly to maintain, partnering with LGS allows you to access a skilled workforce without the overhead expenses. You pay for the services you need, making it a cost-effective solution.",
   },
   {
     id: 3,
@@ -93,7 +94,7 @@ class HomePage extends Component {
           <div className="row p-5">
             <div className="col-12 col-md-7 home-page-content-container">
               <h1 className="home-page-heading">About LGS</h1>
-              <h5 className="mb-4">
+              <h5 className="mb-4 home-page-paragraph">
                 Welcome to the world of innovation and digital excellence! At
                 Labyrinth Global Solutions, we are more than just an IT company;
                 we are your partners in transforming ideas into reality. As
@@ -101,7 +102,7 @@ class HomePage extends Component {
                 technology to create seamless digital experiences that drive
                 growth and inspire change.
               </h5>
-              <h4>Industries We are Serving </h4>
+              <h4 className="home-page-heading">Industries We are Serving </h4>
               <div className="home-page-list-container">
                 <ul>
                   <li className="home-page-list">
@@ -132,14 +133,14 @@ class HomePage extends Component {
                 </ul>
               </div>
               <Link to="/contactus">
-                <button className="btn btn-primary">
+                <button className="learn-more-button">
                   Learn More <BsArrowRightShort className="home-page-arrow" />
                 </button>
               </Link>
             </div>
             <div className="col-12 col-md-5">
               <img
-                src="https://www.labyrinthglobalsolutions.com/assets/img/aboutus1.png"
+                src={lgshome}
                 alt="home-page"
                 className="home-page-image "
               />
@@ -155,10 +156,10 @@ class HomePage extends Component {
           </div>
           <div className="row p-5">
             <h1 className="home-page-heading text-center">Why Us</h1>
-            <div className="col-12 col-lg-5 mt-3 home-reval">
+            <div className="col-12 col-lg-5 mt-3 home-reval about-us-image-container">
               <img className="home-about-us-image" src={about} alt="why-us" />
             </div>
-            <div className="col-12 col-lg-7 mt-3 home-reval">
+            <div className="col-12 col-lg-7 mt-4 home-reval">
               <ul className="home-page-why-us-container">
                 {Details.map((eachItem) => (
                   <WhyUs key={eachItem.id} details={eachItem} />
@@ -174,7 +175,7 @@ class HomePage extends Component {
             </div>
           </div>
           <StartPopup />
-          <Chat />
+          {/* <Chat /> */}
         </div>
         <Footer />
       </>

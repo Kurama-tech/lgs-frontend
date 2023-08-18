@@ -11,7 +11,7 @@
   border-bottom: 3px solid #529ff1;
   width: 150px;
   margin: auto;
-  margin-bottom: 85px;
+  margin-bottom: 10px;
 }
 
 .industriesImage {
@@ -26,7 +26,7 @@
 
 .ToolsPageContainer {
   width: 95%;
-  height: 100%;
+  height: max-content;
 }
 
 .totalToolsPageContainer {
@@ -35,12 +35,14 @@
   flex-direction: column;
   display: flex;
   justify-content: center;
-  height: 100%;
+  height: max-content;
   align-items: center;
+  padding: 20px;
 }
 
 .industries-para {
-  font-weight: normal;
+  font-weight: bold;
+  margin: 10px;
   color: #ffffff;
   font-size: 15px;
   text-transform: uppercase;
@@ -79,5 +81,11 @@
     color: #ffffff !important;
     font-size: 20px;
     font-weight: bold !important;
+  }
+  .h-line {
+    border-bottom: 3px solid #529ff1;
+    width: 140px;
+    margin: auto;
+    margin-bottom: 10px;
   }
 }

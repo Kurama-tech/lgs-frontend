@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from "react";
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
 import ResellerMendix from "./Components/ResellerMendixPage";
@@ -9,7 +8,6 @@ import Ptcintegrety from "./Components/PTCintegrity";
 import About from "./Components/Aboutus";
 import HomePage from "./Components/Homepage";
 import Chat from "./Components/chat";
-import VisitTracker from "./Components/Tracker";
 import CountriesBar from "./Components/Countriesbar";
 import DigitalMarketing from "./Components/DigitalMarketing";
 import SaasPage from "./Components/SaasPage";
@@ -18,48 +16,31 @@ import Careers from "./Components/Careers";
 import WhatsAppIntegration from "./Components/WhatsappIcon";
 import SalesForce from "./Components/SalesforcePage/index";
 import Contactpopup from "./Components/Popup";
-
+import ScrollToTopButton from "./Components/scroll/Scroll";
+import OrmTable from "./Components/ORM";
+import WebsiteDevelopment from "./Components/MobileDevelopment";
+import SMO from "./Components/SMO";
+import WebsiteMaintanance from "./Components/WebsiteMaintance";
+import PpcTable from "./Components/Ppctable";
+import Smm from "./Components/SMM";
+import PricingPage from "./Components/seo/seo";
 function App() {
- // Set to true to show the pop-up on initial load
-  const [visitCount, setVisitCount] = useState(0);
-
-  useEffect(() => {
-    fetchVisitCount(); // Fetch the visit count on initial load
-    // Increment the visit count on every page load by making a request to the homepage
-    fetch("https://api.labyrinthglobalsolutions.com/", { method: "GET" })
-      .then((response) => response.json())
-      .then((data) => {
-        if (data.success) {
-          setVisitCount(data.visitCount);
-        }
-      })
-      .catch((error) => {
-        console.error("Error incrementing visit count:", error);
-      });
-  }, []);
-
-  const fetchVisitCount = async () => {
-    try {
-      const response = await fetch("https://api.labyrinthglobalsolutions.com/api/visit-count");
-      const data = await response.json();
-      setVisitCount(data.visitCount);
-    } catch (error) {
-      console.error("Error fetching visit count:", error);
-    }
-  };
-
- 
 
   return (
     <>
-
       <div>
         <CountriesBar />
-
-         <VisitTracker visitCount={visitCount} />
-         <WhatsAppIntegration />
         <Chat />
+        <WhatsAppIntegration />
+
+        <ScrollToTopButton />
         <Routes>
+          <Route
+            exact
+            path="/websitedevelop"
+            element={<WebsiteDevelopment />}
+          />
+          <Route exact path="/orm" element={<OrmTable />} />
           <Route exact path="/" element={<HomePage />} />
           <Route
             exact
@@ -88,8 +69,26 @@ function App() {
             path="/digitalmarketing"
             element={<DigitalMarketing />}
           />
+          <Route
+            exact
+            path="/websitemaintanance"
+            element={<WebsiteMaintanance />}
+          />
+          <Route exact path="/ppc" element={<PpcTable />} />
+          <Route exact path="/smm" element={<Smm />} />
+          <Route exact path="/seo" element={<PricingPage />} />
+
+          {/*
+          
+          <Route exact path="/websitedevelop" element={<WebDevelop />} />
+          
+          
+          <Route exact path="/logodesign" element={<Ourlogo />} />
+          <Route exact path="/orm" element={<Orm />} /> */}
+
           <Route exact path="/salesforcepage" element={<SalesForce />} />
           <Route exact path="/clientsPage" element={<Clients />} />
+          <Route exact path="/smoservice" element={<SMO />} />
         </Routes>
       </div>
     </>

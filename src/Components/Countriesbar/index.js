@@ -9,7 +9,7 @@ class CountriesBar extends Component {
         <div className="countries-main-container">
           <div className="logos-container">
             <a
-              href="https://www.facebook.com/techasoft/"
+              href="https://m.facebook.com/LabyrinthGlobalSolutions/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -20,7 +20,7 @@ class CountriesBar extends Component {
               />
             </a>
             <a
-              href="https://twitter.com/TECHASOFT_BNGLR"
+              href="https://twitter.com/i/flow/login?redirect_after_login=%2Fsollabyrinth"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -31,7 +31,7 @@ class CountriesBar extends Component {
               />
             </a>
             <a
-              href="https://in.linkedin.com/company/techasoft-pvt-ltd"
+              href="https://www.linkedin.com/company/14662183/admin/feed/posts/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -41,19 +41,8 @@ class CountriesBar extends Component {
                 className="icon-image"
               />
             </a>
-            <a
-              href="https://in.pinterest.com/techasoft_pvt_ltd/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                src="https://www.techasoft.com/debug/img/pinterest.svg"
-                alt="pinterest"
-                className="icon-image"
-              />
-            </a>
-            <a
-              href="https://www.instagram.com/techasoft_pvt_ltd/"
+                        <a
+              href="https://instagram.com/labyrinth_global_solutions?igshid=NTc4MTIwNjQ2YQ=="
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -64,7 +53,7 @@ class CountriesBar extends Component {
               />
             </a>
             <a
-              href="https://www.youtube.com/channel/UC3MLSIMJdEamt0Q0iQ21Omg"
+              href=""
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -158,7 +147,7 @@ class CountriesBar extends Component {
             </a>
             <a
               className="navbar_mob_email first_nav_content mr-2"
-              href="mailto:info@labyrinthglobalsolutions"
+              href="mailto:info@labyrinthglobalsolutions.com"
               rel="noopener noreferrer"
             >
               <img
@@ -168,7 +157,7 @@ class CountriesBar extends Component {
               />
             </a>
             <a
-              href="mailto:info@labyrinthglobalsolutions"
+              href="mailto:info@labyrinthglobalsolutions.com"
               className="contact-info first_nav_content"
               rel="noopener noreferrer"
             >

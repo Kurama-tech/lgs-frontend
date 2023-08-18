@@ -105,7 +105,7 @@ const FirstTimePopup = () => {
                 >
                   <option value="Mendix">Mendix</option>
 
-                  <option value="Polarian">Polarian</option>
+                  <option value="Polarian">polarion</option>
 
                   <option value="Salesforce">Salesforce</option>
 

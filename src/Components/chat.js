@@ -1,73 +1,87 @@
-import { Component } from 'react';
+// import { Component } from 'react';
 
-// Flag to check if the Kommunicate script is already loaded
+// // Flag to check if the Kommunicate script is already loaded
 
-let isKommunicateLoaded = false;
+// let isKommunicateLoaded = false;
 
-class Chat extends Component {
+// class Chat extends Component {
 
-  componentDidMount() {
+//   componentDidMount() {
 
-    // Check if the script is already loaded
+//     // Check if the script is already loaded
 
-    if (!isKommunicateLoaded) {
+//     if (!isKommunicateLoaded) {
 
-      (function(d, m) {
+//       (function(d, m) {
 
-        var kommunicateSettings = {
+//         var kommunicateSettings = {
 
-          appId: "3f2ef8d211d505f13dc1a651639608fd",
+//           appId: "3f2ef8d211d505f13dc1a651639608fd",
 
-          popupWidget: true,
+//           popupWidget: true,
 
-          automaticChatOpenOnNavigation: true
+//           automaticChatOpenOnNavigation: true
 
-        };
+//         };
 
-        var s = document.createElement("script");
+//         var s = document.createElement("script");
 
-        s.type = "text/javascript";
+//         s.type = "text/javascript";
 
-        s.async = true;
+//         s.async = true;
 
-        s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
+//         s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
 
-        var h = document.getElementsByTagName("head")[0];
+//         var h = document.getElementsByTagName("head")[0];
 
-        h.appendChild(s);
+//         h.appendChild(s);
 
-        window.kommunicate = m;
+//         window.kommunicate = m;
 
-        m._globals = kommunicateSettings;
+//         m._globals = kommunicateSettings;
 
-        // Update the flag to indicate that the script is loaded
+//         // Update the flag to indicate that the script is loaded
 
-        isKommunicateLoaded = true;
+//         isKommunicateLoaded = true;
 
-      })(document, window.kommunicate || {});
+//       })(document, window.kommunicate || {});
 
-    }
+//     }
 
-  }
-
-
-
-
-  render() {
-
-    return
-
-    //  (
-
-    //   <p>hi</p>
-
-    // );
-
-  }
-
-}
+//   }
 
 
 
+
+//   render() {
+
+//     return
+
+//     //  (
+
+//     //   <p>hi</p>
+
+//     // );
+
+//   }
+
+// }
+
+
+
+
+// export default Chat;
+import React from 'react';
+
+const Chat = () => {
+  return (
+    <df-messenger
+      intent="WELCOME"
+      chat-title="LGSAGENT"
+      agent-id="f7965425-6216-484b-bb02-f97a1e371333"
+      language-code="en"
+    ></df-messenger>
+  );
+};
 
 export default Chat;

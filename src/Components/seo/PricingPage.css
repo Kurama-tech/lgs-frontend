@@ -1,0 +1,52 @@
+/* Styling for the pricing page */
+.pricing-page {
+    text-align: center;
+    margin: 9px;
+    margin-left: 6px;
+  }
+  .pricing-page h1{
+    background-color: rgb(228, 222, 215);
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  /* Apply alternating background color to rows */
+  tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Add more styles as needed */
+  /* Add highlight style for the specific row */
+.highlighted {
+    background-color: rgb(183, 183, 172); /* You can change this color */
+  }
+  /* Style for the "Learn More" button */
+.learn-more-button {
+    display: inline-block;
+    padding: 10px 10px;
+    background-color: rgb(34, 34, 53);
+    color: white;
+    text-decoration: none;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+  }
+  .learn-more-button:hover{
+    background-color: blue;
+  }
+  @media screen and (max-width: 768px) {
+    .learn-more-button {
+      padding: 8px 15px;
+      font-size: 14px;
+    }
+  }

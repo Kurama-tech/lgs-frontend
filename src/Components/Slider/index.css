@@ -6,10 +6,6 @@
   padding: 10px;
 }
 
-.slide-content {
-  color: black;
-}
-
 .slider-container {
   height: 500px;
   display: flex;
@@ -26,15 +22,28 @@
 }
 
 .slider-paragraph {
-  font-size: 20px !important;
+  font-size: 15px !important;
   font-weight: 500 !important;
   color: white !important   ;
   width: 400px;
+  text-align: center;
 }
 
 .slider-button {
   font-family: "Poppins", sans-serif !important;
-  font-size: 12px !important;
+  font-size: 17px !important;
+  font-weight: 800;
+  color: #0263c4;
+  background-color: rgb(250, 249, 249) !important;
+  border-radius: 5px;
+  border-width: 0px;
+  outline: none;
+  width: 120px;
+  padding: 5px;
+}
+.slider-button:hover {
+  opacity: 0.9;
+  font-weight: 800;
 }
 
 @media screen and (max-width: 767px) {
@@ -54,9 +63,70 @@
   }
 
   .slider-paragraph {
+    font-size: 12px !important;
+    font-weight: 500 !important;
+    color: white !important   ;
+    text-align: center;
+    width: 300px;
+  }
+
+  .slider-button {
+    font-family: "Poppins", sans-serif !important;
+    font-size: 10px !important;
+    font-weight: 800;
+    color: #0263c4;
+    background-color: rgb(250, 249, 249) !important;
+    border-radius: 5px;
+    border-width: 0px;
+    outline: none;
+    width: 100px;
+    height: 25px;
+  }
+  .slider-button:hover {
+    opacity: 0.9;
+    font-weight: 800;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .slider-container {
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .slider-heading {
+    font-size: 15px !important;
+    font-weight: bold !important;
+    color: white !important;
+  }
+
+  .slider-paragraph {
     font-size: 15px !important;
     font-weight: 500 !important;
     color: white !important   ;
-    width: 300px;
+    width: 200px;
+    text-align: center;
+  }
+
+  .slider-button {
+    font-family: "Poppins", sans-serif !important;
+    font-size: 12px !important;
+    font-weight: 800;
+    color: #0263c4;
+    background-color: rgb(250, 249, 249) !important;
+    border-radius: 5px;
+    border-width: 0px;
+    outline: none;
+    width: 100px;
+    height: 28px;
+    padding: 2px;
+  }
+  .slider-button:hover {
+    opacity: 0.9;
+    font-weight: 800;
   }
 }

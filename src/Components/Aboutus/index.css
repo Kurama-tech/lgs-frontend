@@ -1,4 +1,4 @@
-/* Base styles for all devices */
+/*Base styles for all devices
 .aboutus-image-container {
   background-image: url('https://res.cloudinary.com/dots1s0gu/image/upload/v1689671651/Techasoft_Banner_o3bwsv.jpg');
   background-size: cover;
@@ -42,6 +42,387 @@
   padding: 10px;
   font-family: montserrat, sans-serif;
   font-size: 20px;
+}
+
+.about-button {
+  box-shadow: 2px 2px 5px #7ebce8;
+}
+
+.about-button:hover {
+  
+  background-color: greenyellow;
+  color: #ffffff;
+}
+
+.about-mission {
+  color: blue;
+  background-color: powderblue;
+  border-radius: 50%;
+  border-color: aqua;
+  border-width: 2px;
+  padding: 25px;
+  text-align: center;
+}
+
+.mission-description {
+  color: #000000;
+  font-family: montserrat, sans-serif;
+  text-align: center;
+  font-size: 20px;
+}
+
+.about-mission-card {
+  border-radius: 15px;
+  margin: 30px;
+  padding: 25px;
+  height: auto;
+  max-width: 500px;
+  background-color: #ffffff;
+  box-shadow: 2px 2px 5px #888888;
+}
+
+.about-cards-container {
+  display: flex;
+  justify-content: center;
+ 
+}
+
+.mission-image,
+.vision-image {
+  height: 150px;
+  width: 150px;
+  margin-bottom: 20px;
+  object-fit: cover;
+}
+
+
+@media (max-width: 768px) {
+  .container {
+    height: 300px;
+  }
+
+  .heading {
+    padding: 30px;
+    font-size: 24px;
+  }
+
+  .aboutUsCard {
+    margin: 20px;
+    padding: 15px;
+  }
+
+  .about-mission-card {
+    width: 90%;
+  }
+
+  .mission-image,
+  .vision-image {
+    height: 100px;
+    width: 100px;
+  }
+
+  
+  .about-cards-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container {
+    height: 350px;
+  }
+
+  .heading {
+    font-size: 28px;
+  }
+
+  .aboutUsCard {
+    margin: 25px;
+    padding: 20px;
+  }
+
+  .about-mission-card {
+    width: 80%;
+  }
+
+  .mission-image,
+  .vision-image {
+    height: 120px;
+    width: 120px;
+  }
+}
+
+
+@media (max-width: 1440px) {
+  .container {
+    height: 450px;
+  }
+
+  .heading {
+    font-size: 32px;
+  }
+
+  .aboutUsCard {
+    margin: 40px;
+    padding: 30px;
+  }
+
+  .about-mission-card {
+    width: 600px;
+  }
+
+  .mission-image,
+  .vision-image {
+    height: 180px;
+    width: 180px;
+  }
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+h1:first-of-type {
+  font-weight: var(--weight1);
+  color: var(--varyDarkBlue);
+}
+
+h1:last-of-type {
+  color: var(--varyDarkBlue);
+}
+
+@media (max-width: 400px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+}
+
+.header {
+  text-align: center;
+  line-height: 0.8;
+  margin-bottom: 50px;
+  margin-top: 100px;
+}
+
+.header p {
+  margin: 0 auto;
+  line-height: 2;
+  color: var(--grayishBlue);
+}
+
+.box p {
+  color: var(--grayishBlue);
+}
+
+.box {
+  border-radius: 5px;
+  box-shadow: 0px 30px 40px -20px gray;
+  padding: 30px;
+  margin: 20px;
+}
+.box-2 {
+  border-radius: 5px;
+  box-shadow: 0px 30px 40px -20px gray;
+  padding: 30px;
+  margin: 20px;
+}
+
+img {
+  float: right;
+}
+
+@media (max-width: 450px) {
+  .box {
+    min-height: 500px;
+  }
+
+  .box-2 {
+    min-height: 250px;
+    padding-bottom: 40px;
+  }
+}
+
+@media (max-width: 950px) and (min-width: 450px) {
+  .box {
+    text-align: center;
+    min-height: 300px;
+  }
+  .box-2 {
+    min-height: 250px;
+    padding-bottom: 40px;
+  }
+}
+
+.cyan {
+  border-top: 3px solid red;
+}
+.red {
+  border-top: 3px solid green;
+}
+.blue {
+  border-top: 3px solid blue;
+}
+.orange {
+  border-top: 3px solid skyblue;
+}
+
+h2 {
+  color: var(--varyDarkBlue);
+  font-weight: var(--weight3);
+}
+
+@media (min-width: 950px) {
+  .row1-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .row2-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .box-down {
+    position: relative;
+    
+  }
+  .box {
+    width: 25%;
+  }
+  .box-2 {
+    width: 25%;
+    background-color: #fff;
+  }
+  .header p {
+    width: 30%;
+  }
+}
+
+.services-card-heading {
+  font-size: 20px;
+  color: #000000;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+}
+
+.services-heading {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  color: #000000;
+}
+
+
+.my-card{
+
+  background-color: white;
+
+  box-shadow: 2px 2px 2px 2px #Bfbfbf;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  justify-content: center;
+
+  height: 70px;
+
+  font-size: 25px;
+
+  padding: 10px;
+
+}
+
+.my-card-text{
+
+  text-align: center;  
+
+}*/
+
+/* Base styles for all devices */
+.aboutus-image-container {
+  background-image: url('https://res.cloudinary.com/dots1s0gu/image/upload/v1689671651/Techasoft_Banner_o3bwsv.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  width: 100%;
+}
+
+.about-top-heading {
+  text-align: center;
+  padding: 50px;
+  color: rgb(60, 85, 226);
+}
+.heading {
+  text-align: center;
+  padding: 10px;
+  color: rgb(60, 85, 226);
+}
+
+.aboutUsCard {
+  border-radius: 15px;
+  margin-top: 30px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 0px;
+  padding: 25px;
+  background-color: #ffffff;
+  box-shadow: 2px 2px 5px #888888;
+}
+
+.mainContainer {
+  background-image: linear-gradient(to left, #2980b9, #6dd5fa);
+  
+}
+
+.firstcard{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.firstimage{
+  height: 400px;
+  width: 500px;
+  border-radius: 15px;
+}
+
+.about-title {
+  color: #6dd5fa;
+  font-family: montserrat, sans-serif;
+  padding: 5px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.thrive-content{
+  font-style: italic;
+}
+
+
+.about-description {
+  color: #000000;
+  padding: 10px;
+  font-family: montserrat, sans-serif;
+  font-size: 20px;
+}
+
+.sub-heading-aboutpage{
+  font-weight: bold;
+}
+.about-video-setting{
+  display: flex;
+  margin-top: 25px;
+  justify-content: center;
+  align-items: center;
 }
 
 .about-button {
@@ -346,4 +727,32 @@ h2 {
 
   text-align: center;  
 
+}
+
+.react-player{
+  width:500px;
+  height:600px;
+  
+}
+@media (max-width:768px){
+  .firstcard{
+      flex-direction:column-reverse;
+  }
+  .react-player{
+      width:100%;
+      height:100%;
+      
+  }
+  .firstimage{
+      width:100%;
+  }
+  .about-description{
+      font-size:16px;
+  }
+  .heading{
+      font-size:24px;
+  }
+  .thrive-content{
+      font-size:24px;
+  }
 }

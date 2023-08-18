@@ -14,10 +14,27 @@ h1:first-of-type {
 h1:last-of-type {
   color: var(--varyDarkBlue);
 }
+.services-heading {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  color: #000000;
+}
+.services-paragraph {
+  color: #000000;
+  font-weight: normal;
+  font-size: 15px;
+}
 
 @media (max-width: 400px) {
   h1 {
     font-size: 1.5rem;
+  }
+  .services-heading {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    color: #000000;
   }
 }
 
@@ -28,13 +45,13 @@ h1:last-of-type {
   margin-top: 100px;
 }
 
-.header p {
+.header {
   margin: 0 auto;
   line-height: 2;
   color: var(--grayishBlue);
 }
 
-.box p {
+.box {
   color: var(--grayishBlue);
 }
 
@@ -63,6 +80,17 @@ h1:last-of-type {
     min-height: 250px;
     padding-bottom: 40px;
   }
+  .services-heading {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    color: #000000;
+  }
+  .services-paragraph {
+    color: #000000;
+    font-weight: normal;
+    font-size: 12px;
+  }
 }
 
 @media (max-width: 950px) and (min-width: 450px) {
@@ -73,6 +101,17 @@ h1:last-of-type {
   .box-2 {
     min-height: 250px;
     padding-bottom: 40px;
+  }
+  .services-heading {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    color: #000000;
+  }
+  .services-paragraph {
+    color: #000000;
+    font-weight: normal;
+    font-size: 13px;
   }
 }
 
@@ -95,6 +134,17 @@ h2 {
 }
 
 @media (min-width: 950px) {
+  .services-heading {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    color: #000000;
+  }
+  .services-paragraph {
+    color: #000000;
+    font-weight: normal;
+    font-size: 15px;
+  }
   .row1-container {
     display: flex;
     justify-content: center;
@@ -126,13 +176,6 @@ h2 {
   color: #000000;
   font-weight: bold;
   font-family: "Poppins", sans-serif;
-}
-
-.services-heading {
-  font-size: 30px;
-  font-weight: bold;
-  font-family: "Poppins", sans-serif;
-  color: #000000;
 }
 
 .services-reval {

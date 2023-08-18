@@ -1,171 +1,3 @@
-/* .salesforce-main-container {
-    background-color: #fff;
-    height: 100vh;
-    width: 100%;
-  }
-  
-  .sales-force-container {
-    background-image: linear-gradient(
-      to top,
-      #d5d4d0 0%,
-      #d5d4d0 1%,
-      #eeeeec 31%,
-      #efeeec 75%,
-      #e9e9e7 100%
-    );
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    background-size: cover;
-    height: 400px;
-    width: 100%;
-  }
-  
-  .salesforceeee-image {
-    width: 600px;
-    height: 400px;
-    padding: 0;
-    margin: 0;
-    border-radius: 10px;
-  }
-  
-  .salesforce-image {
-    width: 500px;
-    padding: 0;
-    margin: 0;
-    border-radius: 10px;
-  }
-  
-  .sales-force-cardcontainer {
-    display: flex;
-    justify-content: space-between;
-    padding: 0px;
-    margin: 0px;
-    background-color: #fff;
-    width: 100%;
-  }
-  
-  .sales-heading {
-    padding: 10px;
-    margin: 10px;
-    color: #10b3e4;
-    font-family: "Poppins", sans-serif;
-  }
-  
-  h1 {
-    color: #000;
-    font-family: "Poppins", sans-serif;
-    font-weight: solid;
-    padding: 10px;
-    margin: 15px;
-  }
-  p {
-    color: #000;
-    font-family: "Poppins", sans-serif;
-    font-weight: solid;
-    padding: 8px;
-    margin: 5px;
-  }
-  
-  .check-icons {
-    margin-right: 10px;
-  }
-  
-  .list-items {
-    margin-bottom: 10px;
-  }
-  
-  @media (max-width: 992px) {
-    .sales-force-container {
-      height: 400px;
-    }
-  
-    .salesforceeee-image {
-      width: 100%;
-      max-width: 400px;
-      height: auto;
-    }
-  
-    .salesforce-image {
-      width: 100%;
-      max-width: 350px;
-      height: auto;
-    }
-  }
-  
-  @media (max-width: 576px) {
-    .sales-force-container {
-      height: 300px;
-    }
-  
-    .salesforceeee-image {
-      max-width: 300px;
-    }
-  
-    .salesforce-image {
-      max-width: 250px;
-    }
-  }
-  
-  .feature-box {
-    height: 250px;
-    width: 300px;
-  }
-  
-  .dark-graybg {
-    background-color: #373f52;
-  }
-  .radius5 {
-    border-radius: 5px;
-  }
-  .my-5 {
-    margin-top: 3rem !important;
-    margin-bottom: 3rem !important;
-  }
-  
-  .feature-box figure .img-block {
-    height: 125px;
-    width: 125px;
-    margin: -70px auto 40px;
-    border: 1px solid #464f63;
-    border-radius: 50%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-  }
-  .feature-box figure .img-block {
-    height: 125px;
-    width: 125px;
-    margin: -70px auto 40px;
-    border: 1px solid #464f63;
-    border-radius: 50%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-  }
-  .bgdarkblue {
-    background-color: #ffffff;
-  }
-  
-  .polarian-card-image-2 {
-    border-radius: 20%;
-  }
-  
-  .salesforce-reval {
-    position: relative;
-    transform: translateY(150px);
-    opacity: 0;
-    transition: all 1s ease;
-  }
-  
-  .salesforce-reval.active {
-    transform: translateY(0px);
-    opacity: 1;
-  } */
-
 .sales-box {
   height: 250px;
   width: 300px;
@@ -234,7 +66,7 @@
 
 .salesforce-bg-image {
   background-image: url("https://assets-global.website-files.com/63b466db0286c6d23709be46/63d059aafb5f584b787cbef6_blog-feat-6-steps-to-backup-restore-salesforce-data-loader.png");
-  height: 100vh;
+  height: 70vh;
   background-size: cover;
   opacity: 1.5;
 }
@@ -244,7 +76,7 @@
   font-size: 30px !important;
   font-weight: bold !important;
   font-family: "Poppins", sans-serif !important;
-
+  letter-spacing: 2.2px;
   width: 600px;
 }
 
@@ -254,6 +86,8 @@
   font-family: "Poppins", sans-serif !important;
   color: #062f46 !important ;
   width: 600px;
+  letter-spacing: 3px;
+  margin-bottom: 10px;
 }
 
 .salesforce-content-container {
@@ -281,14 +115,15 @@
   }
   .salesforce-banner-heading-2 {
     color: #ffffff !important;
-    font-size: 20px !important;
+    font-size: 15px !important;
     font-weight: bold !important;
     font-family: "Poppins", sans-serif !important;
-
+    letter-spacing: 1px;
     width: fit-content;
   }
   .salesforce-banner-heading {
-    font-size: 30px !important;
+    letter-spacing: 1px;
+    font-size: 20px !important;
     font-weight: bold !important;
     font-family: "Poppins", sans-serif !important;
     color: #062f46 !important ;
@@ -301,5 +136,45 @@
     font-weight: 500 !important;
     padding: 3px !important;
     font-family: "Poppins", sans-serif !important;
+  }
+  .salesforce-bg-image {
+    background-image: url("https://assets-global.website-files.com/63b466db0286c6d23709be46/63d059aafb5f584b787cbef6_blog-feat-6-steps-to-backup-restore-salesforce-data-loader.png");
+    height: 25vh;
+    background-size: cover;
+    opacity: 1.5;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 912px) {
+  .salesforce-bg-image {
+    background-image: url("https://assets-global.website-files.com/63b466db0286c6d23709be46/63d059aafb5f584b787cbef6_blog-feat-6-steps-to-backup-restore-salesforce-data-loader.png");
+    height: 35vh;
+    background-size: cover;
+    opacity: 1.5;
+  }
+
+  .salesforce-content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 400px;
+  }
+  .salesforce-banner-heading-2 {
+    color: #ffffff !important;
+    font-size: 15px !important;
+    font-weight: bold !important;
+    font-family: "Poppins", sans-serif !important;
+    letter-spacing: 1px;
+    width: 350px;
+  }
+  .salesforce-banner-heading {
+    letter-spacing: 1px;
+    font-size: 20px !important;
+    font-weight: bold !important;
+    font-family: "Poppins", sans-serif !important;
+    color: #062f46 !important ;
+    width: fit-content;
   }
 }

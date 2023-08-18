@@ -1,0 +1,36 @@
+.excel-table {
+  border-collapse: collapse;
+  width: 80%;
+  overflow: auto;
+  max-height: 400px;
+}
+
+.fixed-header {
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+
+.excel-table th,
+.excel-table td {
+  border: 1px solid black;
+
+  padding: 8px;
+  text-align: center;
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.buttonsContainer {
+  align-self: stretch;
+  text-align: center;
+}

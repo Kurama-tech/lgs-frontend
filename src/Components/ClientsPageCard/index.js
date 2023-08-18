@@ -7,8 +7,8 @@ const ClientsPageCard = (props) => {
   return (
     <div className="shadow-container">
       <div className="main-container2">
-        <h1 className="career-container">{companyName}</h1>
-        <p>{Description}</p>
+        <h1 className="clients-heading">{companyName}</h1>
+        <p className="clients-paragraph">{Description}</p>
         <div>
           <a
             href={companyLink}

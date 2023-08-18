@@ -21,5 +21,24 @@
 .image-slider-image {
   width: 100%;
   height: 400px;
-  border-radius: 20px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .image-slide {
+    width: 80%;
+    height: 40%;
+  }
+  .image-main-container {
+    display: block;
+    padding: 20px;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    background-color: transparent;
+  }
+  .image-slider-image {
+    width: 100%;
+    height: 270px;
+  }
 }

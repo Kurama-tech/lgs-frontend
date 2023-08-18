@@ -57,7 +57,7 @@ class ResellerMendix extends Component {
               />
             </div>
           </div>
-          <div className="reseller-mendix-row p-3">
+          <div className="reseller-mendix-row row p-3">
             <div className="col-md-6 col-12 mendixpic-container">
               <img
                 alt="mendixpic"
@@ -109,15 +109,15 @@ class ResellerMendix extends Component {
               </div>
             </div>
             <div className="col-12 col-md-6 col-lg-4">
-              <div class="card-container">
-                <div class="card">
-                  <div class="img-box">
+              <div className="card-container">
+                <div className="card">
+                  <div className="img-box">
                     <img
                       src="https://res.cloudinary.com/dg81jw9qd/image/upload/v1689916271/cloud-icon_tfv9nt.png"
                       alt="seo-friendly"
                     />
                   </div>
-                  <div class="content">
+                  <div className="content">
                     <h1 className="mendix-card-heading">Cloud</h1>
                     <p className="para">
                       Build and deliver portable, scalable, and resilient
@@ -129,16 +129,16 @@ class ResellerMendix extends Component {
               </div>
             </div>
             <div className="col-12 col-md-6 col-lg-4">
-              <div class="card-container">
-                <div class="card">
-                  <div class="img-box">
+              <div className="card-container">
+                <div className="card">
+                  <div className="img-box">
                     <img
                       className="chat-image"
                       src="https://res.cloudinary.com/dg81jw9qd/image/upload/v1689916263/intel-auto-icon_q81gmm.png"
                       alt="chat-social"
                     />
                   </div>
-                  <div class="content">
+                  <div className="content">
                     <h1 className="mendix-card-heading">
                       Intelligent Automation
                     </h1>
@@ -151,15 +151,15 @@ class ResellerMendix extends Component {
               </div>
             </div>
             <div className="col-12 col-md-6 col-lg-4">
-              <div class="card-container">
-                <div class="card">
-                  <div class="img-box">
+              <div className="card-container">
+                <div className="card">
+                  <div className="img-box">
                     <img
                       src="https://res.cloudinary.com/dg81jw9qd/image/upload/v1689916306/data-integ-icon_zsbsqc.png"
                       alt="blog"
                     />
                   </div>
-                  <div class="content">
+                  <div className="content">
                     <h1 className="mendix-card-heading">Data Integration</h1>
                     <p className="para">
                       Open and extensible at every level: platform, models and
@@ -171,15 +171,15 @@ class ResellerMendix extends Component {
               </div>
             </div>
             <div className="col-12 col-md-6 col-lg-4">
-              <div class="card-container">
-                <div class="card">
-                  <div class="img-box">
+              <div className="card-container">
+                <div className="card">
+                  <div className="img-box">
                     <img
                       src="https://res.cloudinary.com/dg81jw9qd/image/upload/v1689916286/multi-exp_xefdic.png"
                       alt="theme"
                     />
                   </div>
-                  <div class="content">
+                  <div className="content">
                     <h1 className="mendix-card-heading">Multi-Experience</h1>
                     <p className="para">
                       Visually design, context aware smart applications, that
@@ -191,16 +191,16 @@ class ResellerMendix extends Component {
               </div>
             </div>
             <div className="col-12 col-md-6 col-lg-4">
-              <div class="card-container">
-                <div class="card">
-                  <div class="img-box">
+              <div className="card-container">
+                <div className="card">
+                  <div className="img-box">
                     <img
                       className="chat-image"
                       src="https://res.cloudinary.com/dg81jw9qd/image/upload/v1689916297/ai-icon_aae4lv.png"
                       alt="chat-social"
                     />
                   </div>
-                  <div class="content">
+                  <div className="content">
                     <h1 className="mendix-card-heading">
                       Artificial Intelligence
                     </h1>

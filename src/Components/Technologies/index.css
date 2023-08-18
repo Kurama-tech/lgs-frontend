@@ -1,43 +1,23 @@
 .IndustriesHeading {
   font-weight: 900;
   color: #062953;
-  font-size: 25px;
+  font-size: 30px;
 }
 
-.h-line {
+.technologies-h-line {
   border-bottom: 3px solid #529ff1;
   width: 150px;
   margin: auto;
 }
 
 .technologyIndustriesImage {
-  height: 100px;
-  width: 130px;
-  margin: 10px;
+  margin-right: 20px;
 }
 
 .ToolsPageContainer {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-}
-
-.angular-image {
-  margin-top: 28px;
-  height: 45px;
-  width: 160px;
-}
-
-.polarian-image {
-  margin-top: 13px;
-  height: 80px;
-  width: 170px;
-}
-
-.polarian-image-2 {
-  margin-top: 13px;
-  height: 60px;
-  width: 130px;
 }
 
 .totalIndustriesPageContainer {
@@ -66,4 +46,50 @@
 .technology-main-container {
   display: block;
   height: max-content;
+}
+
+.technologies-imageContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.polarian-image-2 {
+  margin-bottom: 12px;
+}
+
+.java-image {
+  margin-bottom: 12px;
+}
+
+@media screen and (max-width: 767px) {
+  .technologyIndustriesImage {
+    height: 90px;
+    width: 90px;
+  }
+  .polarian-image-2 {
+    margin-bottom: 12px;
+    height: 45px;
+    width: 80px;
+  }
+
+  .java-image {
+    margin-bottom: 10px;
+    height: 90px;
+    width: 90px;
+    margin-right: 10px;
+  }
+  .mendix-image {
+    height: 40px;
+    width: 80px;
+  }
+  .technologies-h-line {
+    border-bottom: 3px solid #529ff1;
+    width: 145px;
+    margin: auto;
+  }
+  .IndustriesHeading {
+    font-weight: 900;
+    color: #062953;
+    font-size: 20px;
+  }
 }
